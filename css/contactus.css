@@ -1,0 +1,159 @@
+header{
+    height:13%;
+    width: 100%;
+    background-color: rgb(116, 116, 116);
+    border-radius: 20px;
+    position: fixed;
+    float: left;
+    top:0;
+    background-color: darkblue;
+    z-index: 40;
+
+}
+header img{
+    width: 80;
+    height: 80;
+    margin: 10;
+    float: left;
+    width: 59px;
+    height: 60;
+    border-radius: 20px;
+}
+header p{ 
+    margin-top: 30;
+    display: inline-block;
+    font-family: Monospace;
+    font-size: 20;
+    font-weight: bold;
+}
+header span{
+    color: orange;
+    font-weight: bold;
+}
+.nav{
+    width: 80%;
+    height: 15%;
+    margin-left: 400px;
+    float: left;
+    position: fixed;
+    top: 0;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 10;
+    position: absolute;
+}
+ul li{
+    float: left;
+    margin: 20px;
+}
+ul li a{
+    width: 100px;
+    color:red;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    background-color: yellow;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+a:hover{
+    background-color: #669900;
+}
+ul li ul{
+    background-color: #000033;
+    margin-top: 0;
+}
+ul li ul li{
+    float: none;
+}
+ul li ul{
+    display: none;
+}
+ul li:hover ul{
+    display:block;
+}
+footer{
+    float: left;
+    background-color: black;
+    height: 300px;
+    width: 100%;
+}
+footer div p{
+    margin-top:40px;
+    color: white;
+    font-family: monospace;
+    float:left;
+    font-size:25px;
+
+}
+#sociallogo{
+    margin-left: 40%;
+    float: left;
+    height: 50%; 
+     
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 25px;
+    float: left;
+}
+.logofont{
+    margin-top: 30px;  
+    color: black;
+    font-family: monospace;
+}
+.logofont span{
+    color: orange;
+}
+.regmark p:first-child{
+    margin-left: 900px;
+    font-size: 10px;
+}
+.regmark p{
+    margin-left: 50px;
+    font-size: 10px;
+}
+#copyright p{
+    margin-top: 10px;
+    font-size: 10px;
+    margin-left: 80%;
+}
+.dummy{
+    margin-top: 90;
+}
+.Contact{
+    padding-top:100;
+    margin-top:100;
+    background-image: url('/Images/osman-rana-DHMlx0Osvg8-unsplash.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+}
+.Contact label{
+    display: inline-block;
+    color: Black;
+    font-weight: bolder;
+    width: 200;
+    text-align: right;
+    margin-top: 15;
+    font-size: 30;
+    margin-left: 400;
+    margin-bottom: 40;
+    color: rgba(255,0,0,0.8);
+}
+.Contact input{
+    background-color: rgba(0,0,0,0.1);
+    width: 400;
+    height: 40;
+    border-bottom-color: aquamarine;
+    border-radius: 10px;
+    margin-top: 15;
+}

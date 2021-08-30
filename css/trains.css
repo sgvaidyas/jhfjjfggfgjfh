@@ -1,0 +1,361 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+header{
+  height: 13%;
+    width: 100%;
+    background-color:cadetblue;
+    border-radius: 20px;
+    position: fixed;
+    float: left;
+    top: 0;
+}
+header img{
+  width: 80;
+  height: 80;
+  margin: 10;
+  float: left;
+}
+header p{ 
+  margin-top: 40;
+  display: inline-block;
+  font-family: auto;
+  font-size: 20;
+  font-weight: bold;
+}
+header span{
+  color: orange;
+  font-weight: bold;
+}
+.nav{
+  width: 80%;
+  height: 15%;
+  margin-left: 400px;
+  float: left;
+  position: fixed;
+  top: 0;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 10;
+  position: absolute;
+}
+ul li{
+  float: left;
+  margin: 20px;
+}
+ul li a{
+  width: 150px;
+    color: black;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    font-family: auto;
+    font-weight: bold;
+}
+a:hover{
+  background-color: cadetblue;
+}
+ul li ul{
+  background-color: #000033;
+  margin-top: 0;
+}
+ul li ul li{
+  float: none;
+}
+ul li ul{
+  display: none;
+}
+ul li:hover ul{
+  display:block;
+}
+.section1{
+  margin-top: 6.2%;
+}
+.tr{
+  background-image: url('/Images/tr.jpg');
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  box-sizing: border-box;
+}
+fieldset {
+  background: transparent;
+  font-size: 20px;
+  font-family: auto;
+  color: black;
+  margin-left: 100px;
+  margin-top: 70px;
+  width: 650px;
+  height: 665px;
+  border: 8px rgb(77, 77, 131);
+  border-radius: 40px;
+  display: inline-block;
+}
+
+
+.section1 label {
+  width: 200px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding: 0;
+}
+
+.section1 label,.section1 input,.section1 select {
+  display: inline-block;
+}
+.section1 input{
+  border-radius: 20px;
+  width: 400px;
+  height: 30px;
+}
+.section1 label{
+  padding: 7px;
+  background-color: cadetblue;
+}
+legend{
+  text-align: right;
+    font-family: math;
+    font-size: 40px;
+    padding: 10;
+    border: 5px black;
+    color: black;
+    background-color: cadetblue;
+}
+legend:hover{
+  opacity: 1;
+}
+.section1 .submitbut {
+  margin-left: 20%;
+    font-size: 26px;
+    text-align: center;
+    background-color: cadetblue;
+    border-radius: 4px;
+    font-family: math;
+    height: 40px;
+ 
+}
+
+.safeheader{
+  background-color: cadetblue;
+    opacity: 0.6;
+}
+.safeheader h1{
+padding: 20px;
+color: black;
+font-family : auto;
+text-align: center;
+}
+.safeheader:hover{
+  opacity: 1;
+  
+}
+.mask{
+  background-image: url(images/mask.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  box-sizing: border-box;
+
+}
+.ins{
+  background-image: url(../images/Manshpping.jpeg);
+  width: 100%;
+  height: 120%;
+  background-size: 100% 100%;
+  float: left;
+  
+}
+.ins1 p{
+  font-family: auto;
+    font-size: 20px;
+    color: aliceblue;
+    width: 30%;
+    margin-left: 100px;
+    background-color: rgba(0, 0, 0,0.5);
+    padding: 10px;
+  
+}
+.ins1 p:hover{
+color:black;
+  margin-right: 150px;
+  background-color:rgba(255, 255, 224,0.6);
+  font-weight: bold;
+}
+.ins2 p{
+  font-family: auto;
+  font-size: 20px;
+  color: aliceblue;
+  width: 30%;
+  margin-left: 800px;
+  background-color:rgba(0, 0, 0,0.5);
+  padding: 10px;
+}
+.ins2 p:hover{  
+  color: black;
+  margin-left: 850px;
+  background-color:rgba(133, 80, 105, 0.5);
+  font-weight: bold;
+
+}
+.ins3 p{
+  font-family: auto;
+  font-size: 20px;
+  color: aliceblue;
+  width: 30%;
+  margin-left: 100px;
+  background-color:rgba(0, 0, 0,0.5);
+  padding: 10px;
+ 
+}
+.ins3 p:hover{
+  font-weight: bold;
+  color: black;
+  margin-left: 150px;
+  background-color:rgba(133, 80, 105, 0.5);   
+}
+.cotra{
+  background-image: url(images/cotra.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  box-sizing: border-box;
+}
+.contact
+{
+  width: 100%;
+  background-color:white;
+  color:black;
+  float:right;
+  letter-spacing: .1em;
+  padding: 2%;
+  text-align: justify;
+  background-image: url('../images/bg1.jpg');
+}
+
+.contact_cont1
+{
+  width:100%;
+  padding-top:5%;
+  padding-right:100%;
+ 
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact_banner{
+  
+  text-align: center;
+  background-color: transparent;
+}
+.contact_banner h1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  margin-top: 40;
+  font-family: auto;
+  
+}
+
+.care {
+  margin-top: -20;
+  background-image: url('images/care.jpg');
+height: 100%;
+  background-size: 100% 100%;
+}
+
+    
+
+.container1 input,.container1 label{
+    font-weight: bolder;
+    font-size: 20;
+    color: darkblue;
+    font-family: auto;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.container1 input{
+  height: 30;
+  margin: 0 auto;
+  width: 400;
+  border-radius: 10px;
+  margin-top: 15;
+}
+
+.btnsubmit{
+  width: 400;
+  height: 40;
+  text-align: center;
+  margin-left: 38%;
+  background-color:blanchedalmond;
+  border: 2px solid black;
+  overflow: hidden;
+  border-collapse: separate;
+  font-weight: bold;
+  padding: left 5px;
+}
+footer{
+  float: left;
+  background-color: black;
+  height: 300px;
+  width: 100%;
+}
+footer div p{
+  margin-top:40px;
+  color: white;
+  font-family: auto;
+  float:left;
+  font-size:25px;
+
+}
+#sociallogo{
+  margin-left: 40%;
+  float: left;
+  height: 50%; 
+   
+}
+.logo img{
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  margin-top: 25px;
+  float: left;
+}
+.logofont{
+  margin-top: 30px;  
+  color: black;
+  font-family: auto;
+}
+.logofont span{
+  color: orange;
+}
+.regmark p:first-child{
+  margin-left: 900px;
+  font-size: 10px;
+}
+.regmark p{
+  margin-left: 50px;
+  font-size: 10px;
+}
+#copyright p{
+  margin-top: 10px;
+  font-size: 10px;
+  margin-left: 80%;
+}
+.loginbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50;
+}
+#msgbox{
+    height: 200;
+}
+.labels{
+    margin-top: 20;
+}

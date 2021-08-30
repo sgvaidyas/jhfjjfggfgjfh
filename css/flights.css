@@ -1,0 +1,288 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+  header{
+    height: 13%;
+      width: 100%;
+      background-color: white;
+      border-radius: 20px;
+      position: fixed;
+      float: left;
+      top: 0;
+  }
+  header img{
+    width: 80;
+    height: 80;
+    margin: 10;
+    float: left;
+  }
+  header p{ 
+    margin-top: 40;
+    display: inline-block;
+    font-family:-webkit-pictograpys;
+    font-size: 20;
+    font-weight: bold;
+  }
+  header span{
+    color: orange;
+    font-weight: bold;
+  }
+  .nav{
+    width: 80%;
+    height: 15%;
+    margin-left: 400px;
+    float: left;
+    position: fixed;
+    top: 0;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 10;
+    position: absolute;
+  }
+  ul li{
+    float: left;
+    margin: 20px;
+  }
+  ul li a{
+    width: 150px;
+    color: black;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    font-family: -webkit-pictograph;
+    font-weight: bolder;
+    
+  }
+  a:hover{
+    background-color: cornflowerblue;
+  }
+  ul li ul{
+    background-color: white;
+    margin-top: 0;
+  }
+  ul li ul li{
+    float: none;
+  }
+  ul li ul{
+    display: none;
+  }
+  ul li:hover ul{
+    display:block;
+  }
+  .bluebg{
+      background-color: cornflowerblue;
+      height: 200;
+      margin-top:7%;
+      font-family:  -webkit-pictograph;
+      font-weight: bold;
+  }
+  .schbox{
+      margin-left:10%;
+      width: 100%;
+      font-weight: 800;
+     
+  }
+  .schbox input{
+      float:left;
+      margin-top: 1px;
+      height:50;
+      width:180;
+      font-family: -webkit-pictograph ;
+      font-size: 15px;
+  }
+  label{
+      display: inline-block;
+      margin-left: 150;
+      margin-top: 15;
+  }
+  .H1{
+    background-color:white;
+    height: 70px;
+    margin-top:0%;
+    font-family:  -webkit-pictograph;
+    font-size: 3mm;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .H2{
+    background-color:white;
+    height: 100px;
+    margin-top:0%;
+    font-family:  -webkit-pictograph;
+    font-size: 5mm;
+    margin-top: 50px;
+    margin-left: 38%;
+    font-variant: small-caps;
+  }
+  img{
+      margin-left: 24%;
+      margin-top: 5%;
+  }
+  .container{
+      position: relative;
+      width: 1200px ;
+      height: 300px;
+      margin: 240px auto;
+      background:whitesmoke;
+      margin-left: 12%;
+      margin-top: 25px;
+     
+  }
+  .container .box
+  {
+      position: relative;
+      width: calc(400px - 30px);
+      height: calc(300px - 30px);
+      background:cornflowerblue;
+      float: left;
+      margin: 15px;
+      box-sizing: border-box;
+      overflow: hidden;
+      border-radius: 10px;
+  }
+  .box img{
+    margin-left: 0%;
+    margin-top: 0%;
+
+  }
+  .bbg{
+    background-color: cornflowerblue;
+    height: 10;
+    margin-top: 50px;
+    margin-left: 24%;
+    margin-right: 19.5%;
+  }
+  H3{
+    background-color:white;
+    height: 100px;
+    margin-top:0%;
+    font-family:  -webkit-pictograph;
+    font-size: 10mm;
+    margin-top: 50px;
+    margin-left: 43%;
+    font-variant: small-caps;
+  }
+  H4{
+    background-color:white;
+    height: 100px;
+    margin-top:0%;
+    font-family:  -webkit-pictograph;
+    font-size: 10mm;
+    margin-top: 50px;
+    margin-left: 35%;
+    font-variant: small-caps;
+  }
+  .bgg{
+    background-color: cornflowerblue;
+    height: 10;
+    margin-left: 24%;
+    margin-right: 19.5%;
+    margin-top: 5%;
+  }
+  .bgv{
+    background-color: cornflowerblue;
+    height: 10;
+    margin-top: 50px;
+    margin-left: 24%;
+    margin-right: 19.5%;
+    margin-top: 25%;
+  }
+  H5{
+     
+    background-color:white;
+    height: 100px;
+    margin-top:0%;
+    font-family:  -webkit-pictograph;
+    font-size: 5mm;
+    margin-top: 50px;
+    margin-left: 5%;
+    font-variant: small-caps;
+  }
+  .big{
+    background-color: cornflowerblue;
+    height: 180;
+    margin-top:7%;
+    font-family:  -webkit-pictograph;
+    font-weight: bold;
+}
+.H6{
+    background-color:cornflowerblue;
+    height: 100px;
+    margin-top: 0%;
+    font-family:  -webkit-pictograph;
+    font-size: 10mm;
+    margin-top: 50px;
+    margin-left: 40%;
+    font-variant: small-caps;
+
+}
+.H7{
+    background-color:cornflowerblue;
+    height: 50px;
+    margin-top:0%;
+    font-family:  -webkit-pictograph;
+    font-size: 5mm;
+    margin-top: 50px;
+    margin-left: 5%;
+    font-variant: small-caps;
+}
+.footer1{
+background-color: cornflowerblue;
+width: 400;
+}
+footer{
+  float: left;
+  background-color:cornflowerblue;
+  height: 300px;
+  width: 100%;
+}
+footer div p{
+  margin-top:40px;
+  color: white;
+  font-family: monospace;
+  float:left;
+  font-size:25px;
+
+}
+#sociallogo{
+  margin-left: 40%;
+  float: left;
+  height: 50%; 
+   
+}
+.logo img{
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  margin-left: 0;
+  margin-top: 25px;
+  float: left;
+}
+.logofont{
+  margin-top: 30px;  
+  color: black;
+  font-family: monospace;
+}
+.logofont span{
+  color: orange;
+}
+.regmark p:first-child{
+  margin-left: 800px;
+  font-size: 10px;
+}
+.regmark p{
+  margin-left: 50px;
+  font-size: 10px;
+}
+#copyright p{
+  margin-top: 10px;
+  font-size: 10px;
+  margin-left: 80%;
+}
